@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "dce70893bb10fc53",
+    "type": "split",
+    "children": [
+      {
+        "id": "95a7d19f36e01eb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98a972e793ccdcb5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2d6f947bfa06601",
+    "type": "split",
+    "children": [
+      {
+        "id": "2aecead1b0690182",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "867bf69b2021033a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9121a2aea1bab125",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#位运算",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdae3389bb93d53c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4fc4840aeea1f32a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b5d7492fce66c11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "130f12dcba9945b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57853948ef0c9e57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7635e3c7dbb5113d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "7f42439a32d84acb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f63b8aab7271f8a1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 202.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "98a972e793ccdcb5",
+  "lastOpenFiles": [
+    "note/alg.md",
+    "note/python.md",
+    "[.md",
+    "note",
+    "diary/2024-05-03.md",
+    "diary",
+    "2024-05-03.md",
+    "Welcome.md",
+    "未命名.md",
+    "2024-05-01.md",
+    "hello.md",
+    "AccessKey.csv",
+    "spring.md",
+    "Pasted image 20240430130358.png",
+    "算法.md",
+    "未命名.canvas",
+    "2024-04-30.md",
+    "().md"
+  ]
+}
