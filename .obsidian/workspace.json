@@ -158,6 +158,7 @@
   },
   "active": "867bf69b2021033a",
   "lastOpenFiles": [
+    "note/git.md",
     "imgs/添加远程仓库.png",
     "imgs/删除分支.png",
     "imgs/克隆远程仓库到本地.png",
@@ -168,7 +169,6 @@
     "imgs/分支.png",
     "imgs/创建远程仓库.png",
     "imgs/创建bashrc.png",
-    "imgs/冲突处理.png",
     "imgs",
     "note/test.md",
     "note/alg.md",
