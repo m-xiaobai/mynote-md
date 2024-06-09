@@ -39,7 +39,7 @@ b、分布式版本控制工具
 
 ### 2.3、SVN
 
-![SVN](./imgs/SVN.png)
+![SVN](/imgs/SVN.png)
 
 ### 2.4、Git
 
@@ -55,11 +55,11 @@ b、分布式版本控制工具
   有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）
 ```
 
-![Git](./imgs/Git.png)
+![Git](/imgs/Git.png)
 
 ### 2.5、Git工作流程图
 
-![Git工作流程图](./imgs/Git工作流程图.png)
+![Git工作流程图](/imgs/Git工作流程图.png)
 
 命令如下：
 
@@ -86,15 +86,15 @@ b、分布式版本控制工具
 
 下载地址： https://git-scm.com/download
 
-![Git下载与安装](./imgs/Git下载与安装.png)
+![Git下载与安装](/imgs/Git下载与安装.png)
 
 下载完成后可以得到如下安装文件：
 
-![Git安装包](./imgs/Git安装包.png)
+![Git安装包](/imgs/Git安装包.png)
 
 双击下载的安装文件来安装Git。安装完成后在电脑桌面（也可以是其他目录)点击右键，如果能够看到如下两个菜单则说明Git安装成功。
 
-![Git右键菜单](./imgs/Git右键菜单.png)
+![Git右键菜单](/imgs/Git右键菜单.png)
 
 备注：
 
@@ -121,7 +121,8 @@ Git Bash：Git提供的命令行工具
 
 1. 打开用户目录，创建`.bashrc`文件
     部分windows系统不允许用户创建点号开头的文件，可以打开gitBash,执行`touch ~/.bashrc`
-    ![创建bashrc](./imgs/创建bashrc.png)
+    ![创建bashrc](/imgs/创建bashrc.png)
+
 2. 在`.bashrc`文件中输入如下内容：
    
    ```shell
@@ -132,8 +133,9 @@ Git Bash：Git提供的命令行工具
    #用于一次性暂存并提交所有修改和删除的文件
    alias commit='git commit -a'
    ```
+
 3. 打开gitBash，执行`source ~/.bashrc`
-   ![bashrc](./imgs/bashrc.png)
+   ![bashrc](/imgs/bashrc.png)
 
 #### 3.1.4 解决GitBash乱码问题
 
@@ -158,13 +160,13 @@ Git Bash：Git提供的命令行工具
 3）执行命令`git init`
 4）如果创建成功后可在文件夹下看到隐藏的.git目录。
 
-![获取本地仓库](./imgs/获取本地仓库.png)
+![获取本地仓库](/imgs/获取本地仓库.png)
 
 ### 3.3、基础操作指令
 
 Git工作目录下对于文件的**修改**（增加、删除、更新）会存在几个状态，这些修改的状态会随着我们执行Git的命令而发生变化。
 
-![基础操作指令](./imgs/基础操作指令.png)
+![基础操作指令](/imgs/基础操作指令.png)
 
 本章节主要讲解如何使用命令来控制这些状态之间的转换：
 
@@ -237,8 +239,6 @@ doc/*.txt
 doc/**/*.pdf
 ```
 
-
-
 ### 3.4、分支
 
 几乎所有的版本控制系统都以某种形式支持分支。 使用分支意味着你可以把你的工作从开发主线上分离开来进行重大的Bug修改、开发新的功能，以免影响开发主线。
@@ -273,7 +273,7 @@ doc/**/*.pdf
 - `git branch -d 分支名` 删除分支时，需要做各种检查
 - `git branch -D 分支名` 不做任何检查，强制删除
 - E.g.
-  ![删除分支](./imgs/删除分支.png)
+  ![删除分支](/imgs/删除分支.png)
 
 #### 3.4.8、解决冲突
 
@@ -285,7 +285,7 @@ doc/**/*.pdf
 
 冲突部分的内容处理如下所示：
 
-![冲突处理.png](./imgs/冲突处理.png)
+![冲突处理.png](/imgs/冲突处理.png)
 
 #### 3.4.9、开发中分支使用原则与流程
 
@@ -302,7 +302,7 @@ doc/**/*.pdf
 - hotfix/xxxx分支，
   从master派生的分支，一般作为线上bug修复使用，修复完成后需要合并到master、test、develop分支。
 - 还有一些其他分支，在此不再详述，例如test分支（用于代码测试）、pre分支（预上线分支）等等。
-- ![分支](./imgs/分支.png)
+- ![分支](/imgs/分支.png)
 
 #### 练习:分支操作
 
@@ -365,7 +365,7 @@ git-log
 - Gitee设置账户共公钥
   - 获取公钥
     - `cat ~/.ssh/id_rsa.pub`
-  - ![SSH公钥](./imgs/SSH公钥.png)
+  - ![SSH公钥](/imgs/SSH公钥.png)
   - 验证是否配置成功
     - `ssh -T git@gitee.com`
 
@@ -380,35 +380,35 @@ git-log
   - 仓库路径，从远端服务器获取此URL
   - 例如：
      `git remote add origin git@gitee.com:czbk_zhang_meng/git_test.git`
-    ![添加远程仓库](./imgs/添加远程仓库.png)
+    ![添加远程仓库](/imgs/添加远程仓库.png)
 
 #### 4.5.2、查看远程仓库
 
 - 命令：`git remote`
-  ![查看远程仓库](./imgs/查看远程仓库.png)
+  ![查看远程仓库](/imgs/查看远程仓库.png)
 
 #### 4.5.3、推送到远程仓库
 
 - 命令：`git push[ -f][ --set-upstream][ 远端名称[ 本地分支名[:远端分支名]]]`
   - 如果远程分支名和本地分支名称相同，则可以只写本地分支
     - `git push origin master`=`git push origin master:master`
-      ![推送到远程仓库-两种写法](./imgs/推送到远程仓库-两种写法.png)
+      ![推送到远程仓库-两种写法](/imgs/推送到远程仓库-两种写法.png)
   - `-f` = `--force` 表示强制覆盖
   - `-u` = `--set-upstream` 推送到远端的同时并且建立起和远端分支的关联关系。
     - `git push --set-upstream origin master`
   - 如果**当前分支已经和远端分支关联**，则可以省略分支名和远端名。
     - `git push` 将master分支推送到已关联的远端分支。
-      ![推送到远程仓库](./imgs/推送到远程仓库.png)
+      ![推送到远程仓库](/imgs/推送到远程仓库.png)
 
 查询远程仓库
 
-![查询远程仓库](./imgs/查询远程仓库.png)
+![查询远程仓库](/imgs/查询远程仓库.png)
 
 #### 4.5.4、 本地分支与远程分支的关联关系
 
 - 查看关联关系我们可以使用 `git branch -vv` 命令
 
-![查看本地分支和远程分支的关联关系](./imgs/查看本地分支和远程分支的关联关系.png)
+![查看本地分支和远程分支的关联关系](/imgs/查看本地分支和远程分支的关联关系.png)
 
 #### 4.5.5、从远程仓库克隆
 
@@ -417,7 +417,7 @@ git-log
 - 命令: `git clone <仓库路径> [本地目录]`
   - 本地目录可以省略，会自动生成一个目录
 
-![克隆远程仓库到本地](./imgs/克隆远程仓库到本地.png)
+![克隆远程仓库到本地](/imgs/克隆远程仓库到本地.png)
 
 #### 4.5.6、从远程仓库中抓取和拉取
 
@@ -430,9 +430,9 @@ git-log
   - **拉取指令就是将远端仓库的修改拉到本地并自动进行合并，等同于fetch+merge**
   - 如果不指定远端名称和分支名，则抓取所有并更新当前分支。
 1. 在test01这个本地仓库进行一次提交并推送到远程仓库
-   ![在test01这个本地仓库进行一次提交并推送到远程仓库](./imgs/在test01这个本地仓库进行一次提交并推送到远程仓库.png)
+   ![在test01这个本地仓库进行一次提交并推送到远程仓库](/imgs/在test01这个本地仓库进行一次提交并推送到远程仓库.png)
 2. 在另一个仓库将远程提交的代码拉取到本地仓库
-   ![将仓库里远程提交的代码拉取到本地仓库](./imgs/将仓库里远程提交的代码拉取到本地仓库.png)
+   ![将仓库里远程提交的代码拉取到本地仓库](/imgs/将仓库里远程提交的代码拉取到本地仓库.png)
 
 #### 4.5.7、解决合并冲突
 
@@ -440,7 +440,7 @@ git-log
 
 A用户在本地修改代码后优先推送到远程仓库，此时B用户在本地修订代码，提交到本地仓库后，也需要推送到远程仓库，此时B用户晚于A用户，**故需要先拉取远程仓库的提交，经过合并后才能推送到远端分支**，如下图所示。
 
-![解决远程仓库合并冲突](./imgs/解决远程仓库合并冲突.png)
+![解决远程仓库合并冲突](/imgs/解决远程仓库合并冲突.png)
 
 在B用户拉取代码时，因为A、B用户同一段时间修改了同一个文件的相同位置代码，故会发生合并冲突。
 
@@ -491,11 +491,11 @@ git-log
 
 安装好IntelliJ IDEA后，如果Git安装在默认路径下，那么idea会自动找到git的位置，如果更改了Git的安装位置则需要手动配置下Git的路径。选择File→Settings打开设置窗口，找到Version Control下的git选项：
 
-![在Idea中配置Git](./imgs/在Idea中配置Git.png)
+![在Idea中配置Git](/imgs/在Idea中配置Git.png)
 
 点击Test按钮,现在执行成功，配置完成
 
-![在Idea中成功配置Git](./imgs/在Idea中成功配置Git.png)
+![在Idea中成功配置Git](/imgs/在Idea中成功配置Git.png)
 
 ### 5.2、在Idea中操作Git
 
@@ -503,43 +503,43 @@ git-log
 
 #### 5.2.1、创建项目远程仓库（参照4.3）
 
-![IDEA-创建项目远程仓库](./imgs/IDEA-创建项目远程仓库.png)
+![IDEA-创建项目远程仓库](/imgs/IDEA-创建项目远程仓库.png)
 
 #### 5.2.2、初始化本地仓库
 
-![IDEA-初始化本地仓库](./imgs/IDEA-初始化本地仓库.png)
+![IDEA-初始化本地仓库](/imgs/IDEA-初始化本地仓库.png)
 
 #### 5.2.3、设置远程仓库
 
-![IDEA-设置远程仓库](./imgs/IDEA-设置远程仓库.png)
+![IDEA-设置远程仓库](/imgs/IDEA-设置远程仓库.png)
 
 #### 5.2.4、提交到本地仓库
 
-![IDEA-提交到本地仓库](./imgs/IDEA-提交到本地仓库.png)
+![IDEA-提交到本地仓库](/imgs/IDEA-提交到本地仓库.png)
 
 #### 5.2.6、推送到远程仓库
 
-![IDEA-推送到远程仓库](./imgs/IDEA-推送到远程仓库.png)
+![IDEA-推送到远程仓库](/imgs/IDEA-推送到远程仓库.png)
 
 #### 5.2.7、克隆远程仓库到本地
 
-![IDEA-克隆远程仓库到本地](./imgs/IDEA-克隆远程仓库到本地.png)
+![IDEA-克隆远程仓库到本地](/imgs/IDEA-克隆远程仓库到本地.png)
 
 #### 5.2.8、创建分支
 
 - 最常规的方式
-  ![IDEA-创建分支（常规）](./imgs/IDEA-创建分支（常规）.png)
+  ![IDEA-创建分支（常规）](/imgs/IDEA-创建分支（常规）.png)
 - 最强大的的方式
-  ![IDEA-创建分支（强大）](./imgs/IDEA-创建分支（强大）.png)
+  ![IDEA-创建分支（强大）](/imgs/IDEA-创建分支（强大）.png)
 
 #### 5.2.9、切换分支及其他分支相关操作
 
-![IDEA-切换分支及其他分支相关操作](./imgs/IDEA-切换分支及其他分支相关操作.png)
+![IDEA-切换分支及其他分支相关操作](/imgs/IDEA-切换分支及其他分支相关操作.png)
 
 #### 5.2.11、解决冲突
 
 1. 执行merge或pull操作时，可能发生冲突
-     ![IDEA-解决冲突](./imgs/IDEA-解决冲突.png)
+     ![IDEA-解决冲突](/imgs/IDEA-解决冲突.png)
 2. 冲突解决后加入暂存区
     略
 3. 提交到本地仓库
@@ -550,9 +550,9 @@ git-log
 ### 5.3、IDEA常用GIT操作入口
 
 1. 第一张图上的快捷入口可以基本满足开发的需求。
-   ![IDEA常用GIT操作入口](./imgs/IDEA常用GIT操作入口1.png)
+   ![IDEA常用GIT操作入口](/imgs/IDEA常用GIT操作入口1.png)
 2. 第二张图是更多在IDEA操作git的入口。
-   ![IDEA常用GIT操作入口](./imgs/IDEA常用GIT操作入口2.png)
+   ![IDEA常用GIT操作入口](/imgs/IDEA常用GIT操作入口2.png)
 
 ### 5.4、场景分析
 
@@ -569,17 +569,17 @@ git-log
 练习场景如下：
 
 1. 由组长，基于本项目创建本地仓库；创建远程仓库，推送项目到远程仓库。
-   ![综合练习-1](./imgs/综合练习-1.png)
+   ![综合练习-1](/imgs/综合练习-1.png)
 2. 每一位组员从远程仓库克隆项目到idea中,这样每位同学在自己电脑上就有了一个工作副本，可以正
    式的开始开发了。我们模拟两个组员(组员A、组员B)，克隆两个工作区。
-   ![综合练习-2](./imgs/综合练习-2.png)
+   ![综合练习-2](/imgs/综合练习-2.png)
 3. 组员A修改工作区,提交到本地仓库，再推送到远程仓库。组员B可以直接从远程仓库获取最新的代
    码。
-   ![综合练习-3](./imgs/综合练习-3.png)
+   ![综合练习-3](/imgs/综合练习-3.png)
 4. 组员A和组员B修改了同一个文件的同一行，提交到本地没有问题，但是推送到远程仓库时，后一个
    推送操作就会失败。
    解决方法：需要先获取远程仓库的代码到本地仓库，编辑冲突，提交并推送代码。
-   ![综合练习-4](./imgs/综合练习-4.png)
+   ![综合练习-4](/imgs/综合练习-4.png)
 
 ## 附:几条铁令
 
@@ -591,7 +591,7 @@ git-log
 
 ### 1. windows下看不到隐藏的文件（.bashrc、.gitignore）
 
-![windows下查看隐藏文件](./imgs/windows下查看隐藏文件.png)
+![windows下查看隐藏文件](/imgs/windows下查看隐藏文件.png)
 
 ### 2. windows下无法创建.ignore|.bashrc文件
 
@@ -600,8 +600,8 @@ git-log
 - 在git目录下打开gitbash
 - 执行指令`touch .gitignore`
 
-![windows下创建.ignore、.bashrc文件](./imgs/windows下创建.ignore、.bashrc文件.png)
+![windows下创建.ignore、.bashrc文件](/imgs/windows下创建.ignore、.bashrc文件.png)
 
 ## 附：IDEA集成GitBash作为Terminal
 
-![IDEA集成GitBash作为Terminal](./imgs/IDEA集成GitBash作为Terminal.png)
+![IDEA集成GitBash作为Terminal](/imgs/IDEA集成GitBash作为Terminal.png)

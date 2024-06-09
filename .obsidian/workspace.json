@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/test.md",
+                "file": "note/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/test.md",
+                "file": "note/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/test.md",
+                "file": "note/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/test.md"
+                "file": "note/git.md"
               }
             }
           },
@@ -156,8 +156,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "867bf69b2021033a",
+  "active": "98a972e793ccdcb5",
   "lastOpenFiles": [
+    "note/test.md",
     "note/git.md",
     "imgs/添加远程仓库.png",
     "imgs/删除分支.png",
@@ -170,7 +171,6 @@
     "imgs/创建远程仓库.png",
     "imgs/创建bashrc.png",
     "imgs",
-    "note/test.md",
     "note/alg.md",
     "note/python.md",
     "[.md",
