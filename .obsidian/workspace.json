@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/git.md",
+                "file": "note/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/git.md",
+                "file": "note/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/git.md",
+                "file": "note/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/git.md"
+                "file": "note/python.md"
               }
             }
           },
@@ -158,8 +158,14 @@
   },
   "active": "98a972e793ccdcb5",
   "lastOpenFiles": [
-    "note/test.md",
+    "note/mysql.md",
+    "note/desisgnpattern - 副本.md",
+    "note/desisgnpattern.md",
+    "note/mysql_2.md",
+    "note/python.md",
+    "note/alg.md",
     "note/git.md",
+    "note/test.md",
     "imgs/添加远程仓库.png",
     "imgs/删除分支.png",
     "imgs/克隆远程仓库到本地.png",
@@ -171,8 +177,6 @@
     "imgs/创建远程仓库.png",
     "imgs/创建bashrc.png",
     "imgs",
-    "note/alg.md",
-    "note/python.md",
     "[.md",
     "note",
     "diary/2024-05-03.md",
