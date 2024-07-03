@@ -6,6 +6,7 @@
       {
         "id": "95a7d19f36e01eb0",
         "type": "tabs",
+        "dimension": 77.79816513761467,
         "children": [
           {
             "id": "98a972e793ccdcb5",
@@ -17,7 +18,26 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "16974867970b9d04"
+          }
+        ]
+      },
+      {
+        "id": "38f7eda66445b3bb",
+        "type": "tabs",
+        "dimension": 22.20183486238532,
+        "children": [
+          {
+            "id": "4ece1c1a45c1e9a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note/python.md"
+              }
+            },
+            "group": "16974867970b9d04"
           }
         ]
       }
@@ -152,19 +172,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
-      "remotely-save:Remotely Save": false
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "98a972e793ccdcb5",
   "lastOpenFiles": [
+    "note/rabbitmq.md",
     "note/mysql.md",
+    "note/git.md",
+    "note/python.md",
     "note/desisgnpattern - 副本.md",
     "note/desisgnpattern.md",
     "note/mysql_2.md",
-    "note/python.md",
     "note/alg.md",
-    "note/git.md",
     "note/test.md",
     "imgs/添加远程仓库.png",
     "imgs/删除分支.png",
