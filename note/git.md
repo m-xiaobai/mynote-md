@@ -368,6 +368,7 @@ git-log
   - ![SSH公钥](/imgs/SSH公钥.png)
   - 验证是否配置成功
     - `ssh -T git@gitee.com`
+[Git 通过SSH进行Git克隆操作|极客教程 (geek-docs.com)](https://geek-docs.com/git/git-questions/835_git_git_clone_through_ssh.html)
 
 ### 4.5、操作远程仓库
 
