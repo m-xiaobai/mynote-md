@@ -6,6 +6,7 @@
       {
         "id": "95a7d19f36e01eb0",
         "type": "tabs",
+        "dimension": 79.87927565392354,
         "children": [
           {
             "id": "98a972e793ccdcb5",
@@ -13,11 +14,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/python.md",
-                "mode": "source",
+                "file": "note/alg.md",
+                "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "170fb75595f04d81"
+          }
+        ]
+      },
+      {
+        "id": "e73e155662873d7a",
+        "type": "tabs",
+        "dimension": 20.12072434607646,
+        "children": [
+          {
+            "id": "b06289c3645700fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note/alg.md"
+              }
+            },
+            "group": "170fb75595f04d81"
           }
         ]
       }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/python.md",
+                "file": "note/alg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/python.md",
+                "file": "note/alg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/python.md"
+                "file": "note/alg.md"
               }
             }
           },
@@ -142,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,15 +176,17 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "98a972e793ccdcb5",
+  "active": "867bf69b2021033a",
   "lastOpenFiles": [
+    "note/java8.markdown",
+    "note/java.md",
+    "note/git.md",
     "note/mysql.md",
+    "note/python.md",
     "note/desisgnpattern - 副本.md",
     "note/desisgnpattern.md",
     "note/mysql_2.md",
-    "note/python.md",
     "note/alg.md",
-    "note/git.md",
     "note/test.md",
     "imgs/添加远程仓库.png",
     "imgs/删除分支.png",
