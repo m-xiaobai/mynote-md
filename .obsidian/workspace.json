@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "20dc2b56d5200991",
+        "id": "899651ea3410e3f8",
         "type": "tabs",
         "children": [
           {
-            "id": "15c86c206920406b",
+            "id": "d5c5b4d5695973da",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,19 +155,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "15c86c206920406b",
+  "active": "d5c5b4d5695973da",
   "lastOpenFiles": [
+    "imgs.md",
     "note/git.md",
+    "imgs/gee.md",
+    "imgs/Git-Cheet-Sheet-ByGeekHour.png",
+    "note/spring.md",
+    "note/java.md",
     "note/java8.md",
     "note/jwt.md",
     "note/jvm.md",
-    "note/java.md",
     "note/python.md",
     "note/test.md",
     "note/alg.md",
     "note/desisgnpattern.md",
     "note/Docker.md",
-    "note/spring.md",
     "conflict-files-obsidian-git.md",
     "note/java8.markdown",
     "note/mysql.md",
@@ -182,7 +185,6 @@
     "imgs/获取本地仓库.png",
     "imgs/分支.png",
     "imgs/创建远程仓库.png",
-    "imgs/创建bashrc.png",
     "imgs",
     "[.md",
     "note",
@@ -196,8 +198,6 @@
     "AccessKey.csv",
     "spring.md",
     "算法.md",
-    "未命名.canvas",
-    "2024-04-30.md",
-    "().md"
+    "未命名.canvas"
   ]
 }
