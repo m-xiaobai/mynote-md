@@ -6,6 +6,7 @@
       {
         "id": "e73e155662873d7a",
         "type": "tabs",
+        "dimension": 75.30959752321982,
         "children": [
           {
             "id": "df50f6be1de2bc73",
@@ -13,11 +14,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/java8.md",
-                "mode": "source",
+                "file": "note/java.md",
+                "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "c6c2e75e29202b2d"
+          }
+        ]
+      },
+      {
+        "id": "9114043258034053",
+        "type": "tabs",
+        "dimension": 24.690402476780186,
+        "children": [
+          {
+            "id": "2a352321ad0211df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note/java.md"
+              }
+            },
+            "group": "c6c2e75e29202b2d"
           }
         ]
       }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/java8.md",
+                "file": "note/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/java8.md",
+                "file": "note/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/java8.md"
+                "file": "note/java.md"
               }
             }
           },
@@ -157,8 +177,8 @@
   },
   "active": "df50f6be1de2bc73",
   "lastOpenFiles": [
-    "note/java.md",
     "note/java8.md",
+    "note/java.md",
     "note/git.md",
     "note/jvm.md",
     "note/jwt.md",
