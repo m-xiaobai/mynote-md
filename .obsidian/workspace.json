@@ -128,21 +128,13 @@
                 "file": "note/git.md"
               }
             }
-          },
-          {
-            "id": "f63b8aab7271f8a1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +149,11 @@
   },
   "active": "d5c5b4d5695973da",
   "lastOpenFiles": [
-    "imgs.md",
+    "imgs/color.png",
+    "imgs/color.png.crdownload",
+    "().md",
     "note/git.md",
+    "imgs.md",
     "imgs/gee.md",
     "imgs/Git-Cheet-Sheet-ByGeekHour.png",
     "note/spring.md",
@@ -196,8 +191,6 @@
     "2024-05-01.md",
     "hello.md",
     "AccessKey.csv",
-    "spring.md",
-    "算法.md",
     "未命名.canvas"
   ]
 }
