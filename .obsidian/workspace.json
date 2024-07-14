@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/git.md",
+                "file": "note/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/git.md",
+                "file": "note/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/git.md",
+                "file": "note/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/git.md"
+                "file": "note/test.md"
               }
             }
           }
@@ -149,10 +149,12 @@
   },
   "active": "d5c5b4d5695973da",
   "lastOpenFiles": [
+    "note/desisgnpattern.md",
+    "note/test.md",
+    "note/git.md",
     "imgs/color.png",
     "imgs/color.png.crdownload",
     "().md",
-    "note/git.md",
     "imgs.md",
     "imgs/gee.md",
     "imgs/Git-Cheet-Sheet-ByGeekHour.png",
@@ -162,9 +164,7 @@
     "note/jwt.md",
     "note/jvm.md",
     "note/python.md",
-    "note/test.md",
     "note/alg.md",
-    "note/desisgnpattern.md",
     "note/Docker.md",
     "conflict-files-obsidian-git.md",
     "note/java8.markdown",
@@ -179,7 +179,6 @@
     "imgs/基础操作指令.png",
     "imgs/获取本地仓库.png",
     "imgs/分支.png",
-    "imgs/创建远程仓库.png",
     "imgs",
     "[.md",
     "note",
