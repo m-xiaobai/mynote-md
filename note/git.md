@@ -626,3 +626,7 @@ git-log
 ## 附：IDEA集成GitBash作为Terminal
 
 ![IDEA集成GitBash作为Terminal](/imgs/IDEA集成GitBash作为Terminal.png)
+
+## 其他命令
+### cherry-pick
+[cherry-pick命令](https://www.ruanyifeng.com/blog/2020/04/git-cherry-pick.html)
