@@ -73,6 +73,9 @@ b、分布式版本控制工具
 
 ## 3、Git安装与常用命令
 
+![常用命令](https://mobsidian.oss-cn-beijing.aliyuncs.com/Git-Cheet-Sheet-ByGeekHour.png)
+
+
 本教程里的git命令例子都是在Git Bash中演示的，会用到一些基本的linux命令，在此为大家提前列举：
 
 - `ls`/`ll` 查看当前目录

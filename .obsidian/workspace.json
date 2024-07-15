@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/java.md",
-                "mode": "preview",
+                "file": "note/spring.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -34,7 +34,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/java.md"
+                "file": "note/spring.md"
               }
             },
             "group": "c6c2e75e29202b2d"
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/java.md",
+                "file": "note/spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/java.md",
+                "file": "note/spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/java.md"
+                "file": "note/spring.md"
               }
             }
           },
@@ -177,9 +177,10 @@
   },
   "active": "df50f6be1de2bc73",
   "lastOpenFiles": [
-    "note/java8.md",
-    "note/java.md",
     "note/git.md",
+    "note/java.md",
+    "imgs/Git-Cheet-Sheet-ByGeekHour.png",
+    "note/java8.md",
     "note/jvm.md",
     "note/jwt.md",
     "note/python.md",
@@ -202,7 +203,6 @@
     "imgs/获取本地仓库.png",
     "imgs/分支.png",
     "imgs/创建远程仓库.png",
-    "imgs/创建bashrc.png",
     "imgs",
     "[.md",
     "note",
@@ -217,7 +217,6 @@
     "spring.md",
     "算法.md",
     "未命名.canvas",
-    "2024-04-30.md",
-    "().md"
+    "2024-04-30.md"
   ]
 }
