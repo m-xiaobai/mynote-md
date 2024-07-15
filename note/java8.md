@@ -446,6 +446,10 @@ map与flatMap的区别：即Stream套Stream用flatmap比较简单
         employeeSet.forEach(System.out::println);
 ```
 
+### grouping by
+https://www.cnblogs.com/henuyuxiang/p/14989223.html
+
+https://juejin.cn/post/7115262024849817607
 # Comparator
 
 **`compare(Integer o1, Integer o2)` 方法 `return o1 - o2` 是升序，`return o2 - o1` 是降序**
