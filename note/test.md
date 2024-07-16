@@ -39,3 +39,4 @@ TOC
 ---
 This is the first line.  
 And this is the second line.  
+![阶段](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407152059297.png)
