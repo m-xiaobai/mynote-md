@@ -174,6 +174,17 @@ lamda匿名函数
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-23-31-image.png)
 
+### 列表表达式
+
+> https://docs.python.org/zh-cn/3/tutorial/datastructures.html#list-comprehensions
+
+列表表达式还支持多层嵌套，如下面的例子中第一个 for 为外层循环，第二个为内层循环
+
+```python
+[m+'_'+n for m in ['a', 'b'] for n in ['c', 'd']]
+Out[6]: ['a_c', 'a_d', 'b_c', 'b_d']
+```
+
 ## 元组
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-24-47-image.png)
@@ -265,6 +276,38 @@ for k, v in knights.items():
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-09-13-image.png)
 
 # 常用包
+
+## numpy
+### axis理解
+Axes are numbered left to right; axis 0 is the first element in the shape tuple.  
+> 也就是说ndarray中的shape，axis 0 指的是shape中的第一个元素
+
+![axis](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407202325026.png)
+> axis 0 是沿着行往下计算，axis 1沿着列往下计算，即对于一个二维数组（矩阵），axis=0 表示沿着行的方向（垂直方向）操作，而 axis=1 表示沿着列的方向（水平方向）操作。
+
+对于多维数组，如三维数组，
+
+```python
+arr_3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+```
+
+axis=0 表示沿着最外层的维度操作。
+axis=1 表示沿着第二层维度操作。
+axis=2 表示沿着最内层的维度操作。
+
+axis 0:这里是将每个二维数组对应位置的元素相加。
+axis 1:这里是将每个二维数组的每一行相加。
+axis 2:这里是将每个二维数组的每一列相加。
+
+> https://blog.csdn.net/u012219371/article/details/93697240
+> https://superlova.github.io/2020/05/19/numpy%E4%B8%ADaxis%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3/
+
+
+### reshape
+
+reshape函数有个order：可选参数，表示读取元素的顺序。‘C’ 表示按行读取（C语言风格），‘F’ 表示按列读取（Fortran风格），‘A’ 表示按内存中的存储顺序读取。
+
+都返回一个修改后的数组，但不会更改原始数组：
 
 ## Pandas
 
