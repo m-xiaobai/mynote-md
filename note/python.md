@@ -166,6 +166,18 @@ lamda匿名函数
 
 # 数据容器
 
+## 迭代器
+
+[迭代器文档1](https://docs.python.org/zh-cn/3/tutorial/classes.html#iterators)
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407292049195.png)
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407292051274.png)
+> iter()是内置函数
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407292046573.png)
+> https://docs.python.org/zh-cn/3/library/stdtypes.html#typeiter
+
 ## 列表
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-21-20-image.png)
