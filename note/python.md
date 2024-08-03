@@ -253,7 +253,11 @@ for k, v in knights.items():
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-56-53-image.png)
 
+
+
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-57-46-image.png)
+
+## 魔法方法
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-58-51-image.png)
 
@@ -261,6 +265,38 @@ for k, v in knights.items():
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-59-53-image.png)
 
+### \__call\__
+
+object.__call__(self[, args...])
+此方法会在实例作为一个函数被“调用”时被调用；如果定义了此方法，则 x(arg1, arg2, ...) 就大致可以被改写为 type(x).__call__(x, arg1, ...)。
+
+[call解释](https://lulaoshi.info/python/builtin-methods-variables/call.html)
+> 注意这个文档的Callable解释不对，看下面的Callable
+
+### \__setattr__
+
+是 Python 中的一个特殊方法，用于在对象属性被设置时自定义行为。它在你通过 `obj.attr = value` 这种方式设置属性时被自动调用。
+
+```python
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+    def __setattr__(self, name, value):
+        print(f"Setting {name} to {value}")
+        super().__setattr__(name, value)
+
+obj = MyClass("Alice")
+obj.age = 30  # 这将触发 __setattr__ 方法
+
+```
+
+在这个例子中，每次设置属性时，都会打印一条消息，然后调用 `super().__setattr__(name, value)` 来实际设置属性值.
+
+需要注意的是，如果在 `__setattr__` 方法中直接使用 `self.attr = value`，会导致无限递归。因此，应该使用 `super().__setattr__(name, value) `来避免这个问题
+
+除了使用` super().__setattr__ `函数，我们还可以直接操作对象的实例字典来避免无限递归的问题。Python 中的每个对象都有一个名为` __dict__ `的属性，它是一个字典，用于存储对象的属性和对应的值。
+>https://geek-docs.com/python/python-ask-answer/342_python_how_to_use___setattr___correctly_avoiding_infinite_recursion.html
 ## 封装
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-02-57-image.png)
@@ -268,6 +304,8 @@ for k, v in knights.items():
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-03-10-image.png)
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-03-30-image.png)
+
+
 
 ## 继承
 
@@ -286,6 +324,17 @@ for k, v in knights.items():
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-08-33-image.png)
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-11-09-13-image.png)
+
+# 其他
+
+## Callable
+
+[标注可调用对象](https://docs.python.org/zh-cn/3/library/typing.html)
+
+```python
+#即Callable是用来标注__call__方法的，用来表示他是可调用的
+__call__ : Callable[..., Any] = _wrapped_call_impl
+```
 
 # 常用包
 
