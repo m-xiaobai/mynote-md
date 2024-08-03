@@ -116,11 +116,15 @@ from ... import ... 则不需要用到模块名
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-22-14-08-46-image.png)
 
-多个返回值
+### 多个返回值
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-22-14-38-31-image.png)
 
 本质上是将返回值封装成元组
+
+### 返回函数
+
+<https://liaoxuefeng.com/books/python/functional/return-function/index.html>
 
 ## 函数参数种类
 
@@ -257,6 +261,12 @@ for k, v in knights.items():
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-57-46-image.png)
 
+## 类方法与静态方法
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408032034962.png)
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408032038894.png)
+
 ## 魔法方法
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-58-51-image.png)
@@ -335,6 +345,20 @@ obj.age = 30  # 这将触发 __setattr__ 方法
 #即Callable是用来标注__call__方法的，用来表示他是可调用的
 __call__ : Callable[..., Any] = _wrapped_call_impl
 ```
+
+## 函数式编程
+
+[函数式编程指引](https://docs.python.org/zh-cn/3/howto/functional.html#)
+
+### 装饰器
+
+Python 装饰器（decorators）是一种高级功能，允许你在不修改函数或方法源代码的情况下，**动态**地修改其行为。装饰器本质上是一个函数，它接受另一个函数作为参数，并返回一个新的函数或修改后的函数。
+> copilot编写，也就是说装饰器是返回函数的函数
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408031753967.png)
+>[python文档](https://docs.python.org/zh-cn/3/whatsnew/2.4.html#pep-318-decorators-for-functions-and-methods)
+> [廖雪峰文档](https://liaoxuefeng.com/books/python/functional/decorator/index.html#0)
+
 
 # 常用包
 
