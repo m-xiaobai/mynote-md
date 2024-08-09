@@ -160,19 +160,28 @@ from ... import ... 则不需要用到模块名
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-22-15-17-15-image.png)
 
-lamda匿名函数
+### lamda匿名函数
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-22-15-18-06-image.png)
 
-函数注解
+### 函数注解
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-22-15-18-34-image.png)
 
+### 解包实参列表*
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408041129142.png)
 # 数据容器
+
+## 可迭代
+
+[廖雪峰可迭代](https://liaoxuefeng.com/books/python/advanced/iterate/index.html)
 
 ## 迭代器
 
 [迭代器文档1](https://docs.python.org/zh-cn/3/tutorial/classes.html#iterators)
+
+[廖雪峰迭代器教程](https://liaoxuefeng.com/books/python/advanced/iterator/index.html)
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202407292049195.png)
 
@@ -275,7 +284,7 @@ for k, v in knights.items():
 
 ![](https://mobsidian.oss-cn-beijing.aliyuncs.com/2024-04-23-10-59-53-image.png)
 
-### \__call\__
+### \__call__方法
 
 object.__call__(self[, args...])
 此方法会在实例作为一个函数被“调用”时被调用；如果定义了此方法，则 x(arg1, arg2, ...) 就大致可以被改写为 type(x).__call__(x, arg1, ...)。
@@ -283,7 +292,7 @@ object.__call__(self[, args...])
 [call解释](https://lulaoshi.info/python/builtin-methods-variables/call.html)
 > 注意这个文档的Callable解释不对，看下面的Callable
 
-### \__setattr__
+### \__setattr__方法
 
 是 Python 中的一个特殊方法，用于在对象属性被设置时自定义行为。它在你通过 `obj.attr = value` 这种方式设置属性时被自动调用。
 
@@ -337,7 +346,9 @@ obj.age = 30  # 这将触发 __setattr__ 方法
 
 # 其他
 
-## Callable
+## Callable标注可调用对象
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408092350801.png)
 
 [标注可调用对象](https://docs.python.org/zh-cn/3/library/typing.html)
 
@@ -345,6 +356,25 @@ obj.age = 30  # 这将触发 __setattr__ 方法
 #即Callable是用来标注__call__方法的，用来表示他是可调用的
 __call__ : Callable[..., Any] = _wrapped_call_impl
 ```
+## 内置函数
+https://docs.python.org/zh-cn/3/library/functions.html
+
+### zip()函数
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408041122059.png)
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408041123022.png)
+
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408041124756.png)
+
+### map()函数
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408092218352.png)
+
+### id 
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408092220504.png)
+
+### filter函数
+![](https://mobsidian.oss-cn-beijing.aliyuncs.com/202408092355044.png)
 
 ## 函数式编程
 
