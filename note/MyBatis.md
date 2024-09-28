@@ -9,7 +9,7 @@
 4. MyBatis 是一个 半自动的ORM（Object Relation Mapping）框架
 ## MyBatis下载
 - [MyBatis下载地址](https://github.com/mybatis/mybatis-3)
-- ![](imgs/MyBatis下载.png)
+- ![](/imgs/MyBatis下载.png)
 ## 和其它持久化层技术对比
 - JDBC  
 	- SQL 夹杂在Java代码中耦合度高，导致硬编码内伤  
@@ -277,10 +277,10 @@ properties、settings、typeAliases、typeHandlers、objectFactory、objectWrapp
     </mappers>
 </configuration>
 ```
-- ![](imgs/mapper接口和mapper映射文件在同一包下.png)
+- ![](/imgs/mapper接口和mapper映射文件在同一包下.png)
 # 默认的类型别名
-![](imgs/默认的类型别名1.png)
-![](imgs/默认的类型别名2.png)
+![](/imgs/默认的类型别名1.png)
+![](/imgs/默认的类型别名2.png)
 # MyBatis的增删改查
 1. 添加
 	```xml
@@ -871,9 +871,9 @@ public void getEmpAndDeptByStepOne() {
 	System.out.println(emp.getEmpName());
 }
 ```
-- 关闭延迟加载，两条SQL语句都运行了![](imgs/延迟加载测试1.png)
+- 关闭延迟加载，两条SQL语句都运行了![](/imgs/延迟加载测试1.png)
 - 开启延迟加载，只运行获取emp的SQL语句
-![](imgs/延迟加载测试2.png)
+![](/imgs/延迟加载测试2.png)
 ```java
 @Test
 public void getEmpAndDeptByStepOne() {
@@ -885,7 +885,7 @@ public void getEmpAndDeptByStepOne() {
 	System.out.println(emp.getDept());
 }
 ```
-- 开启后，需要用到查询dept的时候才会调用相应的SQL语句![](imgs/延迟加载测试3.png)
+- 开启后，需要用到查询dept的时候才会调用相应的SQL语句![](/imgs/延迟加载测试3.png)
 - fetchType：当开启了全局的延迟加载之后，可以通过该属性手动控制延迟加载的效果，fetchType="lazy(延迟加载)|eager(立即加载)"
 	```xml
 	<resultMap id="empAndDeptByStepResultMap" type="Emp">
@@ -999,7 +999,7 @@ public void getEmpByCondition() {
 	System.out.println(emps);
 }
 ```
-![](imgs/trim测试结果.png)
+![](/imgs/trim测试结果.png)
 ## choose、when、otherwise
 - `choose、when、otherwise`相当于`if...else if..else`
 - when至少要有一个，otherwise至多只有一个
@@ -1036,7 +1036,7 @@ public void getEmpByChoose() {
 	System.out.println(emps);
 }
 ```
-![](imgs/choose测试结果.png)
+![](/imgs/choose测试结果.png)
 - 相当于`if a else if b else if c else d`，只会执行其中一个
 ## foreach
 - 属性：  
@@ -1064,7 +1064,7 @@ public void getEmpByChoose() {
 		System.out.println(result);
 	}
 	```
-	![](imgs/foreach测试结果1.png)
+	![](/imgs/foreach测试结果1.png)
 - 批量添加
 	```xml
 	<!--int insertMoreByList(@Param("emps") List<Emp> emps);-->
@@ -1088,7 +1088,7 @@ public void getEmpByChoose() {
 		System.out.println(result);
 	}
 	```
-	![](imgs/foreach测试结果2.png)
+	![](/imgs/foreach测试结果2.png)
 ## SQL片段
 - sql片段，可以记录一段公共sql片段，在使用的地方通过include标签进行引入
 - 声明sql片段：`<sql>`标签
@@ -1365,18 +1365,18 @@ public void getEmpByChoose() {
 </generatorConfiguration>
 ```
 ### 执行MBG插件的generate目标
-- ![](imgs/执行MBG插件的generate目标.png)
+- ![](/imgs/执行MBG插件的generate目标.png)
 - 如果出现报错：`Exception getting JDBC Driver`，可能是pom.xml中，数据库驱动配置错误
-	- dependency中的驱动![](imgs/dependency中的驱动.png)
-	- mybatis-generator-maven-plugin插件中的驱动![](imgs/插件中的驱动.png)
+	- dependency中的驱动![](/imgs/dependency中的驱动.png)
+	- mybatis-generator-maven-plugin插件中的驱动![](/imgs/插件中的驱动.png)
 	- 两者的驱动版本应该相同
-- 执行结果![](imgs/逆向执行结果.png)
+- 执行结果![](/imgs/逆向执行结果.png)
 ## QBC
 ### 查询
 - `selectByExample`：按条件查询，需要传入一个example对象或者null；如果传入一个null，则表示没有条件，也就是查询所有数据
 - `example.createCriteria().xxx`：创建条件对象，通过andXXX方法为SQL添加查询添加，每个条件之间是and关系
 - `example.or().xxx`：将之前添加的条件通过or拼接其他条件
-![](imgs/example的方法.png)
+![](/imgs/example的方法.png)
 ```java
 @Test public void testMBG() throws IOException {
 	InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
@@ -1393,14 +1393,14 @@ public void getEmpByChoose() {
 	emps.forEach(System.out::println);
 }
 ```
-![](imgs/example测试结果.png)
+![](/imgs/example测试结果.png)
 ### 增改
 - `updateByPrimaryKey`：通过主键进行数据修改，如果某一个值为null，也会将对应的字段改为null
 	- `mapper.updateByPrimaryKey(new Emp(1,"admin",22,null,"456@qq.com",3));`
-	- ![](imgs/增删改测试结果1.png)
+	- ![](/imgs/增删改测试结果1.png)
 - `updateByPrimaryKeySelective()`：通过主键进行选择性数据修改，如果某个值为null，则不修改这个字段
 	- `mapper.updateByPrimaryKeySelective(new Emp(2,"admin2",22,null,"456@qq.com",3));`
-	- ![](imgs/增删改测试结果2.png)
+	- ![](/imgs/增删改测试结果2.png)
 # 分页插件
 ## 分页插件使用步骤
 ### 添加依赖
@@ -1414,7 +1414,7 @@ public void getEmpByChoose() {
 ```
 ### 配置分页插件
 - 在MyBatis的核心配置文件（mybatis-config.xml）中配置插件
-- ![](imgs/配置分页插件.png)
+- ![](/imgs/配置分页插件.png)
 ```xml
 <plugins>
 	<!--设置分页插件-->
@@ -1441,7 +1441,7 @@ public void testPageHelper() throws IOException {
 }
 ```
 
-![](imgs/分页测试结果.png)
+![](/imgs/分页测试结果.png)
 ### 分页相关数据
 #### 方法一：直接输出
 ```java
